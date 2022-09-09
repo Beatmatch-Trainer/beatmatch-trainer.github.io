@@ -1,96 +1,95 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
-    <style>
-        body
-        {
-            background-image: linear-gradient(to bottom right, #160a3c, #622a51);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            color: white;
-            font-family: Nunito;
-        }
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+        <style>
+            body
+            {
+                background-image: linear-gradient(to bottom right, #160a3c, #622a51);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                color: white;
+                font-family: Nunito;
+            }
 
-        h1
-        {
-            font-family: Audiowide;
-            font-size: 42pt;
-            transform: rotateZ(-5deg);
-            margin-bottom: -5px;
-        }
+            h1
+            {
+                font-family: Audiowide;
+                font-size: 42pt;
+                transform: rotateZ(-5deg);
+                margin-bottom: -5px;
+            }
 
-        h2
-        {
-            color: #EBA228;
-            font-size: 16pt;
-            font-weight: normal;
-            text-align: center;
-            margin: 50px;
-        }
+            h2
+            {
+                color: #EBA228;
+                font-size: 16pt;
+                font-weight: normal;
+                text-align: center;
+                margin: 50px;
+            }
 
-        button
-        {
-            background-color:#2AAEF5;
-            border: none;
-            border-radius: 5pt;
-            color: white;
-            font-size: 12pt;
-            padding: 10px;
-            margin-bottom: 50px;
-        }
+            button
+            {
+                background-color:#2AAEF5;
+                border: none;
+                border-radius: 5pt;
+                color: white;
+                font-size: 12pt;
+                padding: 10px;
+                margin-bottom: 50px;
+            }
 
-        button:active
-        {
-            opacity: 75%;
-        }
+            button:active
+            {
+                opacity: 75%;
+            }
 
-        .badge
-        {
-            height: 50px;
-            margin-left: 5px;
-            margin-right: 5px;
-        }
+            .badge
+            {
+                height: 50px;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
 
-        #main-box
-        {
-            align-items: center;
-            display: flex;
-            flex-direction: column;
-            flex-grow: 1;
-        }
+            #main-box
+            {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+            }
 
-        #subtitle-box
-        {
-            max-width: 600px;
-        }
+            #subtitle-box
+            {
+                max-width: 600px;
+            }
 
-        #badges-box
-        {
-            display: flex;
-            flex-direction: row;
-        }
-    </style>
-</head>
-<body>
-    <div id="main-box">
-        <h1>Beatmatch<br /><span style="color:#2AAEF5;">Trainer</span></h1>
-        <div id="subtitle-box">
-            <h2>A fun and competitive way to learn to beatmatch by ear when you're away from the decks.</h2>
+            #badges-box
+            {
+                display: flex;
+                flex-direction: row;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main-box">
+            <h1>Beatmatch<br /><span style="color:#2AAEF5;">Trainer</span></h1>
+            <div id="subtitle-box">
+                <h2>A fun and competitive way to learn to beatmatch by ear when you're away from the decks.</h2>
+            </div>
+            <form>
+                <button type="submit" formaction="privacy-policy.md">View Privacy Policy</button>
+            </form>
+            <div id="badges-box">
+                <a href="">
+                    <image class="badge" src="./Images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" />
+                </a>
+                <!--<a href="">
+                    <image class="badge" src="./Images/google-play-badge.png" />
+                </a>-->
+            </div>
         </div>
-        <form>
-            <button type="submit" formaction="privacy-policy.md">View Privacy Policy</button>
-        </form>
-        <div id="badges-box">
-            <a href="">
-                <image class="badge" src="./Images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" />
-            </a>
-            <a href="">
-                <image class="badge" src="./Images/google-play-badge.png" />
-            </a>
-        </div>
-    </div>
-</body>
-
+    </body>
 </html>
